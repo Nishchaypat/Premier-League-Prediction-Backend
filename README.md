@@ -77,8 +77,4 @@ Technical Expertise:
 
 We deepened our understanding of machine learning techniques, Swift programming, data research, processing, and analysis.
 
-Unexpected Lessons:
-
-Our experience taught us the importance of early arrival, not just to secure a meal but also to uncover unexpected opportunities.
-
 NOTE : This model is only made for educational purposes.
