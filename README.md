@@ -1,7 +1,5 @@
 Prediction on Point 🏆
 
-Empowering sports enthusiasts with data-driven forecasts! 📊⚽
-
 Inspiration
 
 As passionate sports fans and betting enthusiasts, we were deeply inspired by the dedication of seasoned bettors who meticulously analyze team statistics and share their insights. We recognized the potential of data-driven predictions to revolutionize sports betting and set out to create a platform that harnesses this expertise. Our initial focus was on the Premier League, but we envision expanding our reach to other sports leagues in the future.
