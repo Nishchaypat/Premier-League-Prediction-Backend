@@ -109,7 +109,6 @@ if __name__ == "__main__":
   from sklearn.impute import SimpleImputer
   from sklearn.svm import SVC
 
-
   df = pd.read_csv("Main.csv")
   df = df.drop("Unnamed: 0", axis =1)
   df.rename(columns={
