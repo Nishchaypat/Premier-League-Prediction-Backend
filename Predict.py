@@ -166,7 +166,6 @@ if __name__ == "__main__":
   print("Confusion Matrix:\n", confusion)
   print("Classification Report:\n", classification_rep)
 
-
   unique_teams = pd.concat([df["Home_Team"], df["Away_Team"]]).unique()
 
   team_list = unique_teams.tolist()
