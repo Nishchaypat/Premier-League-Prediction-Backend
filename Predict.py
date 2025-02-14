@@ -174,7 +174,6 @@ if __name__ == "__main__":
 
   number_to_string_mapping = {i: team for i, team in enumerate(label_encoder.classes_)}
 
-
   svm_classifier = SVC(kernel='linear', C=1.0, random_state=42)
   svm_classifier.fit(X_train, y_train)
 
