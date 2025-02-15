@@ -34,7 +34,6 @@ def predict_winner(home_team, away_team):
   home_name=home_team
   away_name=away_team
   import pandas as pd
-    # ... (your existing prediction code)
   for k,v in number_to_string_mapping.items():
       if home_name == v:
           home_name = k
