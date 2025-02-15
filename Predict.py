@@ -27,7 +27,6 @@ class FootballMatchPredictionApp(tk.Tk):
     def predict_winner(self):
         home_team = self.home_team_entry.get()
         away_team = self.away_team_entry.get()
-
         result = predict_winner(home_team, away_team)
 
         self.result_label.config(text=result)
