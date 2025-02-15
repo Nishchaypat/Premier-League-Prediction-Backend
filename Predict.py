@@ -9,7 +9,6 @@ from sklearn.svm import SVC
 class FootballMatchPredictionApp(tk.Tk):
     def __init__(self):
         super().__init__()
-
         # Create widgets
         self.home_team_label = tk.Label(self, text="Home team:")
         self.home_team_entry = tk.Entry(self)
