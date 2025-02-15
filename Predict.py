@@ -82,7 +82,6 @@ def predict_winner(home_team, away_team):
   })
   # Make prediction
   result = svm_classifier.predict(match_data)
-
   # Return prediction
   if result == 'H':
       return f"{home_team} is predicted to win."
