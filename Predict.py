@@ -95,12 +95,7 @@ def predict_winner(home_team, away_team):
 if __name__ == "__main__":
   df = pd.read_csv("Main.csv")
   df = df.drop("Unnamed: 0", axis=1)
-  
-  from sklearn.model_selection import train_test_split
-  from sklearn.preprocessing import LabelEncoder
-  from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-  from sklearn.impute import SimpleImputer
-  from sklearn.svm import SVC
+
 
   df = pd.read_csv("Main.csv")
   df = df.drop("Unnamed: 0", axis =1)
