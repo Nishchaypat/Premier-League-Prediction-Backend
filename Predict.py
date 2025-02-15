@@ -16,7 +16,6 @@ class FootballMatchPredictionApp(tk.Tk):
         self.away_team_entry = tk.Entry(self)
         self.predict_button = tk.Button(self, text="Predict", command=self.predict_winner)
         self.result_label = tk.Label(self, text="")
-
         # Place widgets
         self.home_team_label.grid(row=0, column=0)
         self.home_team_entry.grid(row=0, column=1)
