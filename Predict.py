@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.impute import SimpleImputer
 from sklearn.svm import SVC
 
+
 class FootballMatchPredictionApp(tk.Tk):
     def __init__(self):
         super().__init__()
