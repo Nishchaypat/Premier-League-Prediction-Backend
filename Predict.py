@@ -130,7 +130,6 @@ if __name__ == "__main__":
   X = df.drop(['Final_Game_Result'], axis=1)
   y = df['Final_Game_Result']
 
-
   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
   imputer = SimpleImputer(strategy='mean')
