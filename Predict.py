@@ -96,7 +96,6 @@ if __name__ == "__main__":
   df = pd.read_csv("Main.csv")
   df = df.drop("Unnamed: 0", axis=1)
 
-
   df = pd.read_csv("Main.csv")
   df = df.drop("Unnamed: 0", axis =1)
   df.rename(columns={
