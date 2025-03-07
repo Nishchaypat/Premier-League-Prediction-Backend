@@ -119,7 +119,6 @@ if __name__ == "__main__":
       'FTR' : 'Final_Game_Result'
   }, inplace=True)
 
-
   numeric_columns = df.select_dtypes(exclude=['object'])
 
   df[numeric_columns.columns] = df[numeric_columns.columns].fillna(df[numeric_columns.columns].mean())
