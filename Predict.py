@@ -136,7 +136,6 @@ if __name__ == "__main__":
   X_train = imputer.fit_transform(X_train)
   X_test = imputer.transform(X_test)
 
-
   svm_classifier = SVC(kernel='linear', C=1.0, random_state=42)
   svm_classifier.fit(X_train, y_train)
 
